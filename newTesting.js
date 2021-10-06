@@ -1,6 +1,12 @@
 let now = new Date;
-        let next = new Date("2021/10/08");
+        let next = new Date("2021/10/18");
         let ownVal = (next - now) / (1000 * 60 * 60 * 24);
         ownVal = Math.floor(ownVal);
         let ownF = ownVal * (0.033);
         document.querySelector('*').style.opacity = ownF;
+        document.querySelector('div').style.opacity = ownF;
+        document.querySelector('span').style.opacity = ownF;
+        document.querySelector('p').style.opacity = ownF;
+        document.querySelector('img').style.opacity = ownF;
+        document.querySelector('h1').style.opacity = ownF;
+        document.querySelector('body').style.opacity = ownF;
